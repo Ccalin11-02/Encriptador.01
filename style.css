@@ -1,0 +1,257 @@
+main{
+   display: flex;
+   height: 38em;
+   background: linear-gradient(#fff, black);
+  
+}
+
+
+
+body, .inpuText, .Pantalla, .Encriptar , .Desencriptar, .copiar {
+   font-family: 'Chakra Petch', sans-serif;
+   /*background: linear-gradient(#ffffff, #494949);*/
+}
+
+
+    
+.logo{
+   position: relative;
+   left: 2em;
+   top: 2em;
+   
+}
+.titulo{
+   font-size: 1.5rem;
+   text-align: center;
+
+}
+
+.inpuText{
+
+   position: absolute;
+   padding: 1.5rem;
+   width: 50%;
+   height: 40%;
+   left: auto;
+   border: none;
+   resize: none;
+   outline: none;
+   font-size: 25px;
+   left: 10%;
+   top: 20%;
+   background: none;
+   
+   
+
+
+
+}
+
+.caja-mensaje{
+   position: absolute;
+   left: 65%;
+   top:15%;
+
+}
+
+.Pantalla{
+   position: absolute;
+   padding: 20px;
+   
+   resize: none;
+   outline: none;
+
+   width: 70%;
+   height: 125%;
+   font-size: 1.5rem;
+   text-align: center;
+   top: -10%;
+   border-radius: 20px;
+   background-color: #e1e0e0;
+   
+  
+}
+
+.munheco{
+   width: 74%;
+    /* height: 50%; */
+    text-align: center;
+    filter: grayscale();
+}
+
+.imagenM{
+   position: sticky;
+   padding: 20% 20px 20px 20px;
+   width: 70%;
+   height: 50%;
+   text-align: center;
+   /*opacity: 0;*/
+    
+}
+
+.imagenM_hide{
+  opacity: 0;  
+}
+
+.texto-mens{
+   text-align: center;
+   padding: 20px;
+   line-height: 1.5rem;
+   font-size: 20px;
+}
+
+.mensaje-pe{
+   font-size: 12px;
+   line-height: 14px;
+}
+
+
+button{
+   padding: 20px 50px;
+   font-size: 1em;
+   border-radius: 1rem;
+   border: none;
+   text-align: center;
+   
+}
+
+.botones{
+   position: absolute;
+   margin-top: 25%;
+   text-align: center;
+   bottom: 20%;
+   left: 20%;
+}
+
+.copiar{
+  position: relative;
+   left: 5em;
+   opacity: 0%;
+  
+  
+}
+
+.copiar_hide{
+   opacity: 100%;
+}
+.Encriptar{
+   background-color: rgb(4, 4, 130);
+   color: aliceblue;
+}
+
+.Desencriptar{
+   background-color: #e1e0e0;
+
+}
+ footer{
+   background: black;
+   color: #e1e0e0;
+   text-align: center;
+   font-size: 2em;
+   height: 4rem;
+
+
+ }
+
+ .ins{
+   width: 4%;
+   top: 20%;
+ }
+
+ @media screen and (max-width:480px) {
+
+   main{
+      width: 32em;
+      height: 78em;
+   
+   }
+
+   .logo{
+      position: relative;  
+    left: -1%;
+
+   }
+
+   .titulo{
+      text-align: center;
+      left:4em;
+      position:absolute;
+      font-size: 2.5em;
+   }
+
+   .inpuText{
+      width: 110%;
+      height: 35%;
+      top: 17%;
+      font-size: 3em;
+
+   }
+
+   .botones{
+      line-height: 3;
+      left: 40px;
+      /* bottom: -38%; */
+      top: 60%;
+      font-size: 2em
+   }
+   .Encriptar,.Desencriptar{
+      padding: 19px 122px;
+   }
+
+   .caja-mensaje{
+      top:65%;
+      left: 10%;
+      width: 120% ;
+      position: relative;
+      
+   }
+
+   
+
+   .munheco{
+      opacity: 0;
+   }
+
+  
+   .texto-mens{
+      position: absolute;
+      top: 25%;
+      left: 25%;
+      font-size: 40px;
+      line-height: 1em;
+   }
+
+   .Pantalla{
+      width:88% ;
+      height: 110%;
+      font-size: 2.5em;
+      top: -8%;
+      /*border-radius: 4px;
+      margin: 10px;
+      overflow: hidden;
+      resize: none;*/
+   }
+
+   .copiar{
+    position: absolute;
+      top: -38%;
+      left: 9%;
+      width: 80%;
+      font-size: 1.8em;
+      opacity: 100%;
+   }
+
+   
+ 
+
+   footer{
+      width: 16em;
+      height: 2em;
+
+   }
+   .ins{
+     
+      width: 15%;
+   }
+
+}   
